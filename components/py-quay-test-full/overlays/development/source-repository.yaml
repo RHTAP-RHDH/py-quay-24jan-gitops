@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: py-quay-test-full-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/py-quay-24jan
